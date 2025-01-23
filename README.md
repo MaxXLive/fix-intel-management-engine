@@ -108,3 +108,13 @@ If you encounter errors during the flash process (e.g., locked regions), refer t
 By following this guide, your MSI Z87-G45 GAMING motherboard should return to full functionality, resolving the Intel Management Engine issue and preventing the 30-minute shutdown problem.
 
 Happy troubleshooting!
+
+---
+
+## Edit 
+- I also attempted to upgrade and downgrade the BIOS using the built-in M-Flash tool. However, in my experience, this method only updates the BIOS itself, leaving the Intel Management Engine (ME) untouched, even if ME update was selected.
+
+- I noticed this because the updater restarted after reaching 50%, completing the process without updating the ME (which typically occurs after the BIOS update).
+Your experience may vary depending on the firmware and system state.
+The last time I encountered this issue, I resolved it by flashing an older BIOS version (1.8) using the steps in this guide, followed by upgrading to version 1.9 via the M-Flash tool in the BIOS.
+
